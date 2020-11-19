@@ -8,9 +8,14 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MyWorld extends World
 {
+<<<<<<< HEAD
+=======
+    
+>>>>>>> bbd7a2ae1529e0e084a1b848a734da94ef5eb933
     /**
      * Constructor for objects of class MyWorld. 
      */
+<<<<<<< HEAD
     int All_width=100;
     int width=21;
     int height=14; //高さは14で固定
@@ -67,6 +72,11 @@ public class MyWorld extends World
         if(Greenfoot.isKeyDown("down")){
             //offset_update();
             
+        }
+        
+        if( Greenfoot.isKeyDown( "enter" )){
+            World game = new Game();
+            Greenfoot.setWorld(game);
         }
     }
     
