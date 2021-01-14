@@ -1,17 +1,20 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class human here.
+ * Write a description of class block here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class human extends Actor
+public class block extends Actor
 {
     /**
-     * Act - do whatever the human wants to do. This method is called whenever
+     * Act - do whatever the block wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    block(int p){
+        getImage().scale(p,p);
+    }
     public void act() 
     {
         // Add your action code here.
